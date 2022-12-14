@@ -2,7 +2,7 @@
 
 import unittest
 
-from sprint_2.generate_brackets_sequence import generate_brackets_sequences
+from sprint_2.generate_brackets_sequences import generate_brackets_sequences
 
 
 class NearestZeroTestCase(unittest.TestCase):

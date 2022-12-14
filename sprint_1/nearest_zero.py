@@ -3,7 +3,7 @@
 from typing import List
 
 
-def nearest_zero(plots: List[int]) -> str:
+def nearest_zero(plots: List[int]) -> List[int]:
     len_array = len(plots)
     distance_to_zero = [0] * len_array
 
@@ -23,7 +23,7 @@ def nearest_zero(plots: List[int]) -> str:
         else:
             last_zero = i
 
-    return " ".join(str(distance) for distance in distance_to_zero)
+    return distance_to_zero
 
 
 if __name__ == "__main__":

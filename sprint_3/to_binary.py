@@ -10,4 +10,4 @@ def to_binary(number: int) -> int:
 
 if __name__ == "__main__":
     number = int(input("[>] Enter number: "))
-    print(f"[+] Binary number: {to_binary(number)}")
+    print("[+] Binary number:", to_binary(number))

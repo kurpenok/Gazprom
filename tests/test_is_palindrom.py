@@ -12,4 +12,4 @@ class IsPalindromTest(unittest.TestCase):
 
     def test_case_2(self) -> None:
         result = is_palindrom("zo")
-        self.assertEquals(result, False)
+        self.assertEqual(result, False)
